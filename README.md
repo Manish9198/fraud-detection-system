@@ -4,11 +4,12 @@ This project detects fraudulent financial transactions using machine learning. I
 ---
 
 ## Project Structure
+```
 fraud-detection-system/
 |-- fraud_detection.ipynb
 |-- dataset/
 |   |-- Fraud.csv
-
+```
 ---
 
 ## Requirements
@@ -22,25 +23,29 @@ numpy, pandas, matplotlib, seaborn, scikit-learn, jupyter
 
 ## How to Run (Complete Guide)
 
-1. Clone the repository  
+1. Clone the repository
+``` 
 git clone https://github.com/Manish9198/fraud-detection-system.git  
 cd fraud-detection-system  
-
-2. Create and activate virtual environment (optional but recommended)  
+```
+3. Create and activate virtual environment (optional but recommended)  
+```
 python -m venv venv  
 source venv/bin/activate        (Linux / Mac)  
 venv\Scripts\activate           (Windows)  
-
-3. Install dependencies  
+```
+4. Install dependencies
+```
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter  
-
-4. Dataset setup  
+```
+6. Dataset setup  
 Place the dataset file inside the dataset folder.  
 The file name must be exactly: dataset/Fraud.csv  
 
-5. Run the notebook  
+7. Run the notebook
+```
 jupyter notebook  
-
+```
 Open fraud_detection.ipynb and run all cells from top to bottom.
 
 ---
