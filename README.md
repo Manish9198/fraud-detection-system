@@ -1,55 +1,66 @@
-# Fraud Detection System
-
-## Short Description
-This project detects fraudulent financial transactions using machine learning. It performs data loading, preprocessing, exploratory data analysis (EDA), feature scaling, model training, and evaluation to classify transactions as fraud or legitimate.
+# Fraud Detection System | Short Description
+This project detects fraudulent financial transactions using machine learning. It includes data loading, preprocessing, exploratory data analysis (EDA), feature scaling, model training, and evaluation to classify transactions as fraud or legitimate.
 
 ---
 
 ## Project Structure
-.
-├── fraud_detection.ipynb
-└── dataset/
-    └── Fraud.csv
+fraud-detection-system/
+|-- fraud_detection.ipynb
+|-- dataset/
+|   |-- Fraud.csv
 
 ---
 
 ## Requirements
-- Python 3.8+
-- Jupyter Notebook / JupyterLab
+Python 3.8+  
+Jupyter Notebook / JupyterLab  
 
-### Python Libraries
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
+Libraries required:  
+numpy, pandas, matplotlib, seaborn, scikit-learn, jupyter
 
 ---
 
-## How to Run (Step-by-Step)
+## How to Run (Complete Guide)
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Manish9198/fraud-detection-system.git
-cd fraud-detection-system
-```
-### 2.Create Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate        # Linux / Mac
-venv\Scripts\activate           # Windows
-```
+1. Clone the repository  
+git clone https://github.com/Manish9198/fraud-detection-system.git  
+cd fraud-detection-system  
 
-### 3.Install Dependencies
-pip install numpy pandas matplotlib seaborn scikit-learn jupyter
+2. Create and activate virtual environment (optional but recommended)  
+python -m venv venv  
+source venv/bin/activate        (Linux / Mac)  
+venv\Scripts\activate           (Windows)  
 
-### 4.Dataset Setup
-Place the dataset file inside the dataset/ folder
-File name must be exactly:
-dataset/Fraud.csv
+3. Install dependencies  
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter  
 
-### 5.Run the Notebook
-jupyter notebook
+4. Dataset setup  
+Place the dataset file inside the dataset folder.  
+The file name must be exactly: dataset/Fraud.csv  
 
-Open fraud_detection.ipynb
-Run cells from top to bottom
+5. Run the notebook  
+jupyter notebook  
+
+Open fraud_detection.ipynb and run all cells from top to bottom.
+
+---
+
+## What This Project Does
+Loads transaction data, checks missing values, performs EDA, scales numerical features using StandardScaler, trains a machine learning model, and evaluates fraud detection performance.
+
+---
+
+## Output
+Fraud vs legitimate transaction analysis, visualizations, and model evaluation metrics.
+
+---
+
+## GitHub Push Commands
+git add .  
+git commit -m "Initial Fraud Detection project"  
+git push  
+
+---
+
+## Author
+Manish Sutar
